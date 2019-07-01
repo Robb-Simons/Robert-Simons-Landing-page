@@ -107,6 +107,100 @@ header nav a:hover::before{
 	height:230px;
 }
 
+section h1{
+	color:white;
+	text-align: center;
+}
+
+section p{
+	color: aliceblue;
+	text-align: center;
+	margin-left: 175px;
+	margin-right: 175px;
+}
+
+/*----Launch App tiles-----*/
+
+.la1cont{
+	display: flex;
+	flex-direction: row;
+	height: 400px;
+	width: 90%;
+	max-height: 400px;
+	max-width: 90%;
+}
+
+.la1image{
+	flex: 1;
+	margin-left: 200px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.la1description{
+	flex: 2;
+	color: aliceblue;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 200px;
+	margin-bottom: 25px;
+}
+
+.la2cont{
+	display: flex;
+	flex-direction: row;
+	height: 400px;
+	width: 90%;
+	max-height: 400px;
+	max-width: 90%;
+}
+
+.la2image{
+	flex: 1;
+	margin-left: 200px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.la2description{
+	flex: 2;
+	color: aliceblue;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 200px;
+	margin-bottom: 25px;
+}
+
+.la3cont{
+	display: flex;
+	flex-direction: row;
+	height: 400px;
+	width: 90%;
+	max-height: 400px;
+	max-width: 90%;
+}
+
+.la3image{
+	flex: 1;
+	margin-left: 200px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.la3description{
+	flex: 2;
+	color: aliceblue;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 200px;
+	margin-bottom: 25px;
+}
 
 /*-----------------------------------------Footer Code-------------------------------------------*/
 .page-footer{
