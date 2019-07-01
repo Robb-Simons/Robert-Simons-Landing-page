@@ -1,0 +1,130 @@
+/*----------------------------------------Background Code---------------------------------------------*/
+
+html, 
+body {
+	height: 100%;
+    background-color: rgb(40, 40, 40);
+    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), 
+                      linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), 
+                      linear-gradient(to bottom, rgb(56, 56, 56), rgb(75, 75, 75));
+    background-size: 10px 10px, 10px 10px, 10px 5px;
+    background-position: 0px 0px, 5px 5px, 0px 0px;
+}
+
+/*----------------------------------------Nav-Bar code-----------------------------------------------------*/
+
+header {
+	background-color: #303030;
+    font-family: 'Play', sans-serif;
+}
+
+header::after {
+	content:'';
+	display:table;
+	clear: both;
+}
+
+.navbarcont {
+	width: 75%;
+	margin: 3px;
+}
+
+header nav img {
+	float: left;
+	width: 150px;
+	padding: 3px 0;
+	margin-left: 8px;
+}
+
+header ul {
+	float: right;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+header nav li {
+	display: inline-block;
+	margin-right: 30px;
+    padding-top:18px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+	position: relative;
+}
+
+header nav a {
+	color:rgb(155, 155, 155);
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header nav a:hover {
+	color:#d3d3d3;
+}
+
+header nav a::before {
+	content:'';
+	display:block;
+	height: 5px;
+	width: 100%;
+	background-color:#131313;
+	
+	position:absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 200ms;
+}
+
+header nav a:hover::before{
+	width:100%
+}
+
+/*----------------------------------------Wrapper Code-------------------------------------------*/
+
+.wrapper {
+	min-height: 100%;
+}
+
+.jumbotron{
+	background-image: url(../images/jumbobackground.jpg);
+	background-size: cover;
+}
+
+.jumbotron h1{
+	color:lightgrey;
+	text-align: center;
+}
+
+.jumbotron p{
+	color:lightgrey;
+	text-align: center;
+}
+
+.container{
+	height:230px;
+}
+
+
+/*-----------------------------------------Footer Code-------------------------------------------*/
+.page-footer{
+	background-color:rgb(73, 77, 77);
+}
+
+.list-unstyled a{
+	color:#030303;
+}
+
+.list-inline-item{
+	color:#030303;
+}
+
+.footer-copyright{
+	color:#030303;
+}
+
+.footer-copyright a{
+	color: #030303;
+}
