@@ -222,3 +222,21 @@ section p{
 .footer-copyright a{
 	color: #030303;
 }
+
+/*---------------------------------------Fonts for website--------------------------------*/
+
+.display-3 {
+	font-family: 'Rubik Mono One', sans-serif;
+}
+
+.display-4{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.display-5{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.lead{
+	font-family: 'Titillium Web', sans-serif;
+}
