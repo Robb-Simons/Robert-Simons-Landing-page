@@ -7,7 +7,7 @@ if (isset($_POST['submit'])) {
 
     $email = "RWS_Webdevelopment@outlook.com";
     $headers = "From: ".$mail;
-    $txt = "You have recieved an E-Mail from" .$name."."\n\n".$message;
+    $txt = "You have recieved an E-Mail from" . $name. "." . "\n\n".$message;
 
 
     mail($email, $message, $txt, $headers);

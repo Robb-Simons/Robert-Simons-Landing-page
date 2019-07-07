@@ -240,3 +240,47 @@ section p{
 .lead{
 	font-family: 'Titillium Web', sans-serif;
 }
+
+/*-----------------------------------------Contact-Form----------------------------------*/
+
+section form{
+	text-align: center;
+	height: 25em;
+	margin-bottom: 5em;
+}
+
+.namebox{
+	background-color: rgb(73, 77, 77);
+	border: 1px solid rgb(40, 40, 40);
+	width: 20em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.emailbox{
+	background-color: rgb(73, 77, 77);
+	border: 1px solid rgb(40, 40, 40);
+	margin-bottom: 1em;
+	width: 20em;
+	text-align: center;
+}
+
+.messagebox{
+	background-color: rgb(73, 77, 77);
+	border: 1px solid rgb(40, 40, 40);
+	height: 10em;
+	width: 20em;
+	text-align: center;
+}
+
+section button{
+	background-color: rgb(73, 77, 77);
+	border: 1px solid rgb(40, 40, 40);
+	margin-top: 1em;
+	margin-bottom: 5em;
+}
+
+section textarea{
+	color: #303030;
+}
